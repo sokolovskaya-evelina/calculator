@@ -28,14 +28,14 @@ for (let i = 0; i < operations.length; i++) {
     operationPress(e.target.textContent);
     });
 }
-  
+
 for (let i = 0; i < clears.length; i++) {
     let clearBtn = clears[i];
     clearBtn.addEventListener('click', function (e) {
     clear(e.target.textContent);
     });
-  }
-  
+}
+
 decimal.addEventListener('click', decimalPress);
 sqrt.addEventListener('click', sqrtPress);
 degree.addEventListener('click', degreePress);
